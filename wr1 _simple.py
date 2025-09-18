@@ -24,8 +24,8 @@ print()
 # ============================================================================
 print("=== Exercise 2: Number List Processor ===")
 
-n_input = input("Enter a number (how many numbers to create): ")
-n = int(n_input)
+number_input = input("Enter a number (how many numbers to create): ")
+n = int(number_input)
 
 # Create list of numbers from 1 to n
 numbers = []

@@ -43,8 +43,8 @@ print("=== Exercise 2: Number List Processor ===")
 # Ask the user for a number n (integer)
 # WHY: We need a limit to know how many numbers to generate in our list
 # HOW: input() gets string, int() converts it to integer for use in range()
-n_input = input("Enter a number (how many numbers to create): ")
-n = int(n_input)
+number_input = input("Enter a number (how many numbers to create): ")
+n = int(number_input)
 
 # Create a list of numbers from 1 up to n using a for loop and range()
 # WHY: range() is the most efficient way to generate sequences of numbers
